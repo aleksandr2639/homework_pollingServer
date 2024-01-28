@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aleksandr2639/homework_pollingServer.git"
-  },
   "author": "",
   "license": "ISC",
   "engines": {

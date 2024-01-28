@@ -1,5 +1,6 @@
 import http from "http";
 import express from "express";
+const app = express();
 import cors from "cors";
 import bodyParser from "body-parser";
 import { faker } from "@faker-js/faker";
@@ -22,8 +23,6 @@ setInterval(() => {
         messages.push(getListDataMessage());
     }
 }, 5000);
-
-const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
